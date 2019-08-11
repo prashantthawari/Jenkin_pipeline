@@ -9,5 +9,5 @@ node()
         
     stage "Deploy Application"
         //sh 'rm /var/lib/tomcat/webapps/nvnshoppingcart*'
-        sh 'cp **/*.war /var/lib/tomcat/apache-tomcat-8.5.24/webapps/'
+        sh 'cp **/*.war /opt/'
 }
